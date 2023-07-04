@@ -1,0 +1,37 @@
+* { 
+    box-sizing: border-box;
+}
+
+.row div {
+    padding: 20px;
+    background: #b38df9;
+    color: black;
+    text-align: center;
+}
+
+.row {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-6{
+    flex: 1 1 calc(50% - 20px);
+}
+.col-3{
+    flex: 1 1 calc(25% - 20px);
+}
+
+.col-4{
+    flex: 1 1 calc(33.3% - 20px);
+}
+
+.col-5{
+    flex: 1 1 calc(20% - 20px);
+
+}
